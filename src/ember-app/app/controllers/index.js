@@ -28,25 +28,25 @@ export default Controller.extend({
             link: 'i-i-s-kurs4-конв-файлы-l',
             caption: i18n.t('forms.application.sitemap.конвертация.i-i-s-kurs4-конв-файлы-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация.i-i-s-kurs4-конв-файлы-l.title'),
-            icon: 'tags',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-kurs4-выгр-файла-l',
             caption: i18n.t('forms.application.sitemap.конвертация.i-i-s-kurs4-выгр-файла-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация.i-i-s-kurs4-выгр-файла-l.title'),
-            icon: 'file',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-kurs4-конвертация-l',
             caption: i18n.t('forms.application.sitemap.конвертация.i-i-s-kurs4-конвертация-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация.i-i-s-kurs4-конвертация-l.title'),
-            icon: 'building',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-kurs4-экс-файлы-l',
             caption: i18n.t('forms.application.sitemap.конвертация.i-i-s-kurs4-экс-файлы-l.caption'),
             title: i18n.t('forms.application.sitemap.конвертация.i-i-s-kurs4-экс-файлы-l.title'),
-            icon: 'edit',
+            icon: 'chart bar',
             children: null
           }]
         }, {
@@ -58,19 +58,19 @@ export default Controller.extend({
             link: 'i-i-s-kurs4-расширение-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs4-расширение-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs4-расширение-l.title'),
-            icon: 'archive',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-kurs4-настр-конв-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs4-настр-конв-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs4-настр-конв-l.title'),
-            icon: 'calendar',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-kurs4-еди-изм-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs4-еди-изм-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kurs4-еди-изм-l.title'),
-            icon: 'archive',
+            icon: 'folder',
             children: null
           }]
         }
