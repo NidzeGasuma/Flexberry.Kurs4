@@ -1,0 +1,79 @@
+﻿{
+  "applicationCaption": "Конвертация",
+  "applicationTitle": "Kurs4",
+  "items": [
+    {
+      "link": null,
+      "menuName": "конвертация",
+      "caption": "Конвертация",
+      "title": "Конвертация",
+      "children": [
+        {
+          "link": "i-i-s-kurs4-загр-файла-l",
+          "menuName": null,
+          "caption": "Загрузка файла",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs4-конв-файлы-l",
+          "menuName": null,
+          "caption": "Конвертированные файлы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs4-выгр-файла-l",
+          "menuName": null,
+          "caption": "Выгрузка файла",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs4-конвертация-l",
+          "menuName": null,
+          "caption": "Конвертация",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs4-экс-файлы-l",
+          "menuName": null,
+          "caption": "Эксель файлы",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочники",
+      "caption": "Справочники",
+      "title": "Справочники",
+      "children": [
+        {
+          "link": "i-i-s-kurs4-расширение-l",
+          "menuName": null,
+          "caption": "Расширение",
+          "title": "Расширение",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs4-настр-конв-l",
+          "menuName": null,
+          "caption": "Настройки конвертации",
+          "title": "Настр конв",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kurs4-еди-изм-l",
+          "menuName": null,
+          "caption": "Едениы измерения",
+          "title": "Еди изм",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

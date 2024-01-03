@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Kurs4.model.Rasshirenie</class>
+        <class>Kurs4.model.ZagrFajla</class>
+        <class>Kurs4.model.EdiIzm</class>
+        <class>Kurs4.model.KonvFajly</class>
+        <class>Kurs4.model.Tch_nastr</class>
+        <class>Kurs4.model.VygrFajla</class>
+        <class>Kurs4.model.Konvertaciya</class>
+        <class>Kurs4.model.EksFajly</class>
+        <class>Kurs4.model.NastrKonv</class>
+        <class>Kurs4.model.Tch_zagr</class>
+        <class>Kurs4.model.FlexberryAdvLimit</class>
+        <class>Kurs4.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Kurs4.model.NewPlatformFlexberryServicesLock</class>
+        <class>Kurs4.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

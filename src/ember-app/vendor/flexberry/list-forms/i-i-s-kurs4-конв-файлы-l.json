@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs4-конв-файлы-e",
+  "editForm": "i-i-s-kurs4-конв-файлы-e",
+  "external": false,
+  "caption": "Конвертированные файлы",
+  "name": "IISKurs4КонвФайлыL",
+  "className": "КонвФайлыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs4-конв-файлы",
+      "modelProjection": "КонвФайлыL"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+docker-compose -p kurs4-java down

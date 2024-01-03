@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs4-экс-файлы-e",
+  "editForm": "i-i-s-kurs4-экс-файлы-e",
+  "external": false,
+  "caption": "Эксель файлы",
+  "name": "IISKurs4ЭксФайлыL",
+  "className": "ЭксФайлыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs4-экс-файлы",
+      "modelProjection": "ЭксФайлыL"
+    }
+  ]
+}

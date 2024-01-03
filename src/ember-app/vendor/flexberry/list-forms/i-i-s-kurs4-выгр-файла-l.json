@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kurs4-выгр-файла-e",
+  "editForm": "i-i-s-kurs4-выгр-файла-e",
+  "external": false,
+  "caption": "Выгрузка файла",
+  "name": "IISKurs4ВыгрФайлаL",
+  "className": "ВыгрФайлаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kurs4-выгр-файла",
+      "modelProjection": "ВыгрФайлаL"
+    }
+  ]
+}

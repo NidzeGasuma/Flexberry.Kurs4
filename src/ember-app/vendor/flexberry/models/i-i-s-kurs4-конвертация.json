@@ -1,0 +1,155 @@
+﻿{
+  "name": "IISKurs4Конвертация",
+  "modelName": "i-i-s-kurs4-конвертация",
+  "className": "Конвертация",
+  "nameSpace": "IIS.Kurs4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имяДок",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "загрФайла",
+      "relatedTo": "i-i-s-kurs4-загр-файла",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "настрКонв",
+      "relatedTo": "i-i-s-kurs4-настр-конв",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонвертацияE",
+      "modelName": "i-i-s-kurs4-конвертация",
+      "attrs": [
+        {
+          "name": "имяДок",
+          "caption": "Имя док",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Путь",
+          "lookupValueField": "путь",
+          "relationName": "ЗагрФайла",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "путь",
+              "caption": "Путь",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Загрузка файла",
+          "name": "загрФайла",
+          "relatedTo": "i-i-s-kurs4-загр-файла",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "НастрКонв",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Настройки конвертации",
+          "name": "настрКонв",
+          "relatedTo": "i-i-s-kurs4-настр-конв",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "КонвертацияL",
+      "modelName": "i-i-s-kurs4-конвертация",
+      "attrs": [
+        {
+          "name": "имяДок",
+          "caption": "Имя док",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ЗагрФайла",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "путь",
+              "caption": "Загрузка файла",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Загрузка файла",
+          "name": "загрФайла",
+          "relatedTo": "i-i-s-kurs4-загр-файла",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "НастрКонв",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Настройка",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Настройка",
+          "name": "настрКонв",
+          "relatedTo": "i-i-s-kurs4-настр-конв",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,224 @@
+﻿{
+  "name": "IISKurs4КонвФайлы",
+  "modelName": "i-i-s-kurs4-конв-файлы",
+  "className": "КонвФайлы",
+  "nameSpace": "IIS.Kurs4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "путьФайла",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "выгрФайла",
+      "relatedTo": "i-i-s-kurs4-выгр-файла",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонвФайлыE",
+      "modelName": "i-i-s-kurs4-конв-файлы",
+      "attrs": [
+        {
+          "name": "путьФайла",
+          "caption": "Путь файла",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "NewName",
+          "lookupValueField": "newName",
+          "relationName": "ВыгрФайла",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ВыгрФайла.Конвертация",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "ВыгрФайла.Конвертация.ЗагрФайла",
+                  "belongsTo": [
+                    {
+                      "lookupValue": null,
+                      "lookupValueField": null,
+                      "relationName": "ВыгрФайла.Конвертация.ЗагрФайла.ЭксФайлы",
+                      "belongsTo": [],
+                      "hidden": false,
+                      "attrs": [
+                        {
+                          "name": "имя",
+                          "caption": "Старое имя",
+                          "hidden": false,
+                          "index": 4
+                        }
+                      ],
+                      "index": -1,
+                      "type": null,
+                      "caption": "",
+                      "name": "эксФайлы",
+                      "relatedTo": "i-i-s-kurs4-экс-файлы",
+                      "inverse": null
+                    }
+                  ],
+                  "hidden": false,
+                  "attrs": [],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "загрФайла",
+                  "relatedTo": "i-i-s-kurs4-загр-файла",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "имяДок",
+                  "caption": "Имя документа",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "конвертация",
+              "relatedTo": "i-i-s-kurs4-конвертация",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "newName",
+              "caption": "Новое имя",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Новое имя",
+          "name": "выгрФайла",
+          "relatedTo": "i-i-s-kurs4-выгр-файла",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "КонвФайлыL",
+      "modelName": "i-i-s-kurs4-конв-файлы",
+      "attrs": [
+        {
+          "name": "путьФайла",
+          "caption": "Путь до файла",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ВыгрФайла",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ВыгрФайла.Конвертация",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "ВыгрФайла.Конвертация.ЗагрФайла",
+                  "belongsTo": [
+                    {
+                      "lookupValue": null,
+                      "lookupValueField": null,
+                      "relationName": "ВыгрФайла.Конвертация.ЗагрФайла.ЭксФайлы",
+                      "belongsTo": [],
+                      "hidden": false,
+                      "attrs": [
+                        {
+                          "name": "имя",
+                          "caption": "Старое имя",
+                          "hidden": false,
+                          "index": 3
+                        }
+                      ],
+                      "index": -1,
+                      "type": null,
+                      "caption": "",
+                      "name": "эксФайлы",
+                      "relatedTo": "i-i-s-kurs4-экс-файлы",
+                      "inverse": null
+                    }
+                  ],
+                  "hidden": false,
+                  "attrs": [],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "загрФайла",
+                  "relatedTo": "i-i-s-kurs4-загр-файла",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "имяДок",
+                  "caption": "Имя документа",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "конвертация",
+              "relatedTo": "i-i-s-kurs4-конвертация",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "newName",
+              "caption": "Новое имя",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Новое имя",
+          "name": "выгрФайла",
+          "relatedTo": "i-i-s-kurs4-выгр-файла",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
